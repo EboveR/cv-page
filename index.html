@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<meta charset="UTF-8" />
+<meta charset="UTF-8"/>
 <html lang="pl-PL">
     <head>
         <title>Kacper Mizera - CV</title>
@@ -13,7 +13,7 @@
                     <h1>Kacper Mizera</h1>
                     <span>Junior Frontend Developer</span>
                     <div>
-                        <a class="cv-download-link" href="https://store3.gofile.io/download/9b2a9072-4d0f-47aa-ae4d-57cda491f1aa/CV.pdf">Pobierz CV</a>
+                        <button class="cv-download-link" href="https://store3.gofile.io/download/9b2a9072-4d0f-47aa-ae4d-57cda491f1aa/CV.pdf">Pobierz CV</button>
                     </div>
                 </div>
                 <address>
@@ -23,34 +23,37 @@
                     </ul>
                 </address>
             </header>
+            <nav class="menu">Menu poglądowe</nav>
+                <button onclick="window.location.href='/extra-pages/experience.html'">Doświadczenie</button>
+                <button onclick="window.location.href='/extra-pages/skills.html'">Umiejętności</button>
+                <button onclick="window.location.href='/extra-pages/lang.html'">Języki</button>
+                <button onclick="window.location.href='/extra-pages/hobbies.html'">Zainteresowania</button>
             <main>
-                <section>
-                    <h2>O mnie</h2>
-                    <p>
-                        Cześć jestem <b>Kacper</b>!
-                        Zaczynający programista z umiejętnością szybkiego uczenia nowych technologii.
-                        Na stanowisku programisty w Państwa firmie chciałbym:
-                        wykorzystać wiedzę z zakresu języków programowania i pomóc w automatyzacji procesów, co zmniejszy koszty i ryzyko błędów ludzkich,
-                        dodatkowo zyskać jak najwięcej wiedzy z zakresu programowania.
-                    </p>
-                </section>
                 <section>
                     <h2>Doświadczenie</h2>
                     <ul>
-                        <li>6-2021 - 10-2021: <a href="http://www.codengo.com/">CodeNgo</a> - programista</li>
-                        <li>Dwa projekty, w których brałem udział na studiach, wykorzystując język C#.</li>
+                        <li>6-2021 - 10-2021: <a href="http://www.codengo.com/">CodeNgo</a> - programista.</li>
+                            <ul class="exp-list">
+                                <li>Pisanie prostych programów w języku <b>JavaScript</b>.</li>
+                                <li>Obsługa repozytorium <b>Git</b>.</li>
+                            </ul>
+                        <li>Dwa projekty, w których brałem udział na studiach, wykorzystując język <b>C#</b>.</li>
+                            <ul class="exp-list">
+                                <li>Pisanie funkcji w języku <b>C#</b>.</li>
+                                <li>Obsługa repozytorium <b>Azure DevOps</b>.</li>
+                            </ul>
                     </ul>
                 </section>
                 <section>
                     <h2>Umiejętności</h2>
                     <ul>
-                        <li>Podstawowa znajomość języków programowania: C#, Python, JavaScript, HTML, CSS.</li>
+                        <li>Podstawowa znajomość języków programowania: <b>C#, Python, JavaScript, HTML, CSS</b>.</li>
                     </ul>
                 </section>
                 <section>
                     <h2>Języki</h2>
                         <ul>
-                            <li>Język angielski na poziomie C1, poprzedzone certyfikatem: British Council.</li>
+                            <li>Język angielski na poziomie <b>C1</b>, poprzedzone certyfikatem: <b>British Council</b>.</li>
                             <li>Język polski - ojczysty.</li>
                         </ul>
                 </section>
