@@ -3,10 +3,11 @@
 * {
     font-family: 'Red Hat Display', sans-serif;
 }
+
 body {
     font-family: Arial;
-    background: linear-gradient(to bottom right, #00ffff 0%, #ff0000 100%);
-    padding: 40px 0px;
+    background: linear-gradient(to top left, #000066 0%, #ffffff 100%);
+    padding: 90px 0px;
 }
 
 h1 {
@@ -44,6 +45,8 @@ header {
     align-items: center;
     justify-content: space-between;
     padding-top: 60px;
+    background: linear-gradient(to top, #99ffcc 0%, #ccff99 100%);
+    border-radius:75px 75px 30px 30px;
 }
 
 header ul {
@@ -62,18 +65,19 @@ footer {
 }
 
 footer {
+    padding-top: 15px;
     color: white;
 }
 
 footer a {
-    color: black;
+    color: white;
 }
 
 .menu-buttons {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 20px 200px;
+    padding: 20px 150px;
     padding-top: 5px;
 }
 
@@ -92,7 +96,7 @@ footer a {
 }
 
 .menu {
-    margin-top: 50px;
+    margin-top: 15px;
     display: flex;
     align-items: center;
     justify-content: center;
