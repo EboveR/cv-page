@@ -73,6 +73,10 @@ footer a {
     color: white;
 }
 
+.section-pad {
+    padding-bottom: 75px;
+}
+
 .menu-buttons {
     display: flex;
     align-items: center;
